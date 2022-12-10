@@ -45,6 +45,11 @@ body{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
 #menu :first-child{
     margin-left: 0;
 }
@@ -148,6 +153,46 @@ body{
 }
 
 #two_imgs img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+footer #text{
+    color:#c3c3c3;
+    font-size: 30px;
+}
+
+footer h4{
+    margin: 0;
+}
+
+footer #phone{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+footer #social_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+}
+
+#social_container div{
+    width: 3%;
+    margin: 0 1.5%;
+}
+
+#social_container img{
     object-fit: fill;
     width: 100%;
     height: 100%;
