@@ -1,133 +1,141 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-color: #1e1e1e;
+@font-face {
+    font-family: Merriweather;
+    src: url("../Merriweather.ttf");
 }
 
-#prod{
-    margin: auto;
-    width: 250px;
-    font-size: 26px;
-    background-color: #757575;
-    text-align: center;
-    border-radius: 20px;
-    padding: 5px;
-    margin-top: 45px;
-} 
-
-#container{
-    display: flex;
-    width: 100%;
-    height: 900px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#container img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
-
-#photo_price{
-    width: 30%;
-}
-
-#photo_price_name{
-    width: 30%;
-}
-
-#name{
-    text-align: center;
-    margin: auto;
-    padding: 2%;
-    width: 250px;
-    background-color: #757575;
-    font-size: 26px;
-    border-radius: 15px;
-    margin-bottom: 10%;
-    margin-top: 0;
-}
-
-#price{
-    width: 150px;
-    background-color: #757575;
-    margin: 3% auto;
-    text-align: center;
-    padding: 2%;
-    font-size: 24px;
-    border-radius: 20px;
-}
-
-#stacks{
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    width: 250px;
-    background-color: #757575;
-    font-size: 26px;
-    border-radius: 15px;
-    margin-top: 0;
-}
-
-#arts{
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    width: 250px;
-    background-color: #757575;
-    font-size: 26px;
-    border-radius: 15px;
-    margin-top: 0;
-}
-
-#itaj{
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    width: 250px;
-    background-color: #757575;
-    font-size: 26px;
-    border-radius: 15px;
-    margin-top: 0;
-}
-
-#container_third{
-    display: flex;
-    width: 100%;
-    height: 800px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#container_third img{
-    width: 100%;
-    height: 500px;
-}
-
-#container_itaj{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2%;
-    height: 550px;
-}
-
-#container_itaj div{
-    width: 90%;
-}
-
-#container_itaj img{
-    width: 90%;
-    height: 100%;
-}
-
-#price_itaj{
-    width: 150px;
-    background-color: #757575;
-    margin: 25px auto;
-    text-align: center;
-    padding: 10px;
-    font-size: 24px;
-    border-radius: 20px;
+@media only screen and (min-width: 1200px) and (max-width: 1900px)  {
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #1e1e1e;
+        font-family: Merriweather;
+    }
+    
+    #prod{
+        margin: auto;
+        width: 250px;
+        font-size: 26px;
+        background-color: #757575;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;
+        margin-top: 45px;
+    } 
+    
+    #container{
+        display: flex;
+        width: 100%;
+        height: 900px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #container img{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #photo_price{
+        width: 30%;
+    }
+    
+    #photo_price_name{
+        width: 30%;
+    }
+    
+    #name{
+        text-align: center;
+        margin: auto;
+        padding: 2%;
+        width: 250px;
+        background-color: #757575;
+        font-size: 26px;
+        border-radius: 15px;
+        margin-bottom: 10%;
+        margin-top: 0;
+    }
+    
+    #price{
+        width: 150px;
+        background-color: #757575;
+        margin: 3% auto;
+        text-align: center;
+        padding: 2%;
+        font-size: 24px;
+        border-radius: 20px;
+    }
+    
+    #stacks{
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        width: 250px;
+        background-color: #757575;
+        font-size: 26px;
+        border-radius: 15px;
+        margin-top: 0;
+    }
+    
+    #arts{
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        width: 250px;
+        background-color: #757575;
+        font-size: 26px;
+        border-radius: 15px;
+        margin-top: 0;
+    }
+    
+    #itaj{
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        width: 250px;
+        background-color: #757575;
+        font-size: 26px;
+        border-radius: 15px;
+        margin-top: 0;
+    }
+    
+    #container_third{
+        display: flex;
+        width: 100%;
+        height: 800px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #container_third img{
+        width: 100%;
+        height: 500px;
+    }
+    
+    #container_itaj{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2%;
+        height: 550px;
+    }
+    
+    #container_itaj div{
+        width: 90%;
+    }
+    
+    #container_itaj img{
+        width: 90%;
+        height: 100%;
+    }
+    
+    #price_itaj{
+        width: 150px;
+        background-color: #757575;
+        margin: 25px auto;
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+        border-radius: 20px;
+    }
 }
